@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Quick Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📅 Student Quick Planner</h1>
+</header>
+
+<div class="container">
+    <!-- Daily Schedule -->
+    <section>
+        <h2>Today's Schedule</h2>
+        <table>
+            <tr><th>Time</th><th>Subject / Task</th></tr>
+            <tr><td>9:00 - 10:00</td><td>JAVA</td></tr>
+            <tr><td>10:15 - 11:15</td><td>PYTHON</td></tr>
+            <tr><td>11:30 - 12:30</td><td>HTML</td></tr>
+            <tr><td>2:00 - 3:00</td><td>C</td></tr>
+        </table>
+    </section>
+
+    <!-- Study Tips -->
+    <section class="tips">
+        <h2>Study Tips</h2>
+        <ul>
+            <li>Study in short focused sessions (25–30 mins).</li>
+            <li>Take 5–10 min breaks to refresh your mind.</li>
+            <li>Review your notes daily to retain more information.</li>
+            <li>Keep distractions away during study time.</li>
+        </ul>
+    </section>
+
+    <!-- Notes -->
+    <section>
+        <h2>Quick Notes</h2>
+        <textarea id="notes" placeholder="Write your quick notes here..."></textarea>
+        <button onclick="saveNotes()">Save Notes</button>
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 Student Quick Planner
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
